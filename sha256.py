@@ -1,3 +1,5 @@
+//unfinished
+
 import math
 
 def translate(message):
