@@ -1,0 +1,629 @@
+{
+  "flowers": [
+    {
+      "name": "Rose",
+      "color": ["Red", "Pink", "White", "Yellow", "Orange"],
+      "pollinators": ["Bees", "Butterflies", "Hummingbirds"],
+      "geographicRegions": ["Worldwide", "North America", "Europe", "Asia"],
+      "physicalFeatures": {
+        "height": "1-2 meters",
+        "flowerSize": "5-10 cm",
+        "leafShape": "Compound",
+        "stem": "Thorny"
+      }
+    },
+    {
+      "name": "Tulip",
+      "color": ["Red", "Pink", "Yellow", "Purple", "White"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Europe", "Asia"],
+      "physicalFeatures": {
+        "height": "10-60 cm",
+        "flowerSize": "5-7 cm",
+        "leafShape": "Linear",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Lily",
+      "color": ["White", "Pink", "Red", "Orange", "Yellow"],
+      "pollinators": ["Bees", "Butterflies", "Hummingbirds"],
+      "geographicRegions": ["North America", "Europe", "Asia"],
+      "physicalFeatures": {
+        "height": "60-180 cm",
+        "flowerSize": "10-20 cm",
+        "leafShape": "Lance-shaped",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Anemone",
+      "color": ["Red", "Pink", "White", "Blue", "Purple"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Europe", "Asia", "North America"],
+      "physicalFeatures": {
+        "height": "15-60 cm",
+        "flowerSize": "5-10 cm",
+        "leafShape": "Palmate",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Amaryllis",
+      "color": ["Red", "Pink", "White", "Orange"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["South America", "Africa"],
+      "physicalFeatures": {
+        "height": "45-60 cm",
+        "flowerSize": "10-15 cm",
+        "leafShape": "Linear",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Aster",
+      "color": ["Purple", "Pink", "Blue", "White", "Red"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["North America", "Europe"],
+      "physicalFeatures": {
+        "height": "30-90 cm",
+        "flowerSize": "2-4 cm",
+        "leafShape": "Lance-shaped",
+        "stem": "Hairy"
+      }
+    },
+    {
+      "name": "Azalea",
+      "color": ["Red", "Pink", "White", "Purple"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Asia", "North America"],
+      "physicalFeatures": {
+        "height": "1-3 meters",
+        "flowerSize": "5-8 cm",
+        "leafShape": "Elliptical",
+        "stem": "Woody"
+      }
+    },
+    {
+      "name": "Baby's Breath",
+      "color": ["White", "Pink"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["Europe", "Asia", "North America"],
+      "physicalFeatures": {
+        "height": "30-60 cm",
+        "flowerSize": "1-2 cm",
+        "leafShape": "Linear",
+        "stem": "Branching"
+      }
+    },
+    {
+      "name": "Begonia",
+      "color": ["Red", "Pink", "White", "Orange"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["South America", "Africa", "Asia"],
+      "physicalFeatures": {
+        "height": "15-45 cm",
+        "flowerSize": "3-5 cm",
+        "leafShape": "Round or Heart-shaped",
+        "stem": "Fleshy"
+      }
+    },
+    {
+      "name": "Bellflower",
+      "color": ["Blue", "Purple", "White"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Europe", "North America"],
+      "physicalFeatures": {
+        "height": "30-90 cm",
+        "flowerSize": "2-4 cm",
+        "leafShape": "Oval",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Bergamot",
+      "color": ["Purple", "Pink", "Red"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["North America", "Europe"],
+      "physicalFeatures": {
+        "height": "60-90 cm",
+        "flowerSize": "2-3 cm",
+        "leafShape": "Ovate",
+        "stem": "Square"
+      }
+    },
+    {
+      "name": "Bird of Paradise",
+      "color": ["Orange", "Blue", "Green"],
+      "pollinators": ["Birds"],
+      "geographicRegions": ["South Africa"],
+      "physicalFeatures": {
+        "height": "1.5-2 meters",
+        "flowerSize": "20-30 cm",
+        "leafShape": "Large, Banana-like",
+        "stem": "Thick and sturdy"
+      }
+    },
+    {
+      "name": "Bluebell",
+      "color": ["Blue", "Purple"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["Europe"],
+      "physicalFeatures": {
+        "height": "15-30 cm",
+        "flowerSize": "1-2 cm",
+        "leafShape": "Linear",
+        "stem": "Hairy"
+      }
+    },
+    {
+      "name": "Bottlebrush",
+      "color": ["Red", "Pink"],
+      "pollinators": ["Bees", "Birds"],
+      "geographicRegions": ["Australia"],
+      "physicalFeatures": {
+        "height": "1-3 meters",
+        "flowerSize": "10-15 cm",
+        "leafShape": "Linear",
+        "stem": "Woody"
+      }
+    },
+    {
+      "name": "Buttercup",
+      "color": ["Yellow", "White"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["North America", "Europe"],
+      "physicalFeatures": {
+        "height": "10-30 cm",
+        "flowerSize": "2-5 cm",
+        "leafShape": "Heart-shaped",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Camellia",
+      "color": ["Red", "Pink", "White"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["Asia"],
+      "physicalFeatures": {
+        "height": "1-3 meters",
+        "flowerSize": "5-10 cm",
+        "leafShape": "Oval",
+        "stem": "Woody"
+      }
+    },
+    {
+      "name": "Carnation",
+      "color": ["Red", "Pink", "White", "Purple"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Europe", "Asia"],
+      "physicalFeatures": {
+        "height": "30-60 cm",
+        "flowerSize": "4-6 cm",
+        "leafShape": "Lance-shaped",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Chrysanthemum",
+      "color": ["Yellow", "Red", "White", "Purple", "Pink"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Asia", "Europe", "North America"],
+      "physicalFeatures": {
+        "height": "30-90 cm",
+        "flowerSize": "5-10 cm",
+        "leafShape": "Lobed",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Columbine",
+      "color": ["Blue", "Purple", "Red", "White"],
+      "pollinators": ["Bees", "Hummingbirds"],
+      "geographicRegions": ["North America", "Europe"],
+      "physicalFeatures": {
+        "height": "30-60 cm",
+        "flowerSize": "3-5 cm",
+        "leafShape": "Palmate",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Clover",
+      "color": ["Red", "White", "Pink"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["Worldwide"],
+      "physicalFeatures": {
+        "height": "10-30 cm",
+        "flowerSize": "1-2 cm",
+        "leafShape": "Trifoliate",
+        "stem": "Hairy"
+      }
+    },
+    {
+      "name": "Crocus",
+      "color": ["Purple", "Yellow", "White"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Europe", "Asia"],
+      "physicalFeatures": {
+        "height": "10-15 cm",
+        "flowerSize": "3-5 cm",
+        "leafShape": "Linear",
+        "stem": "No stem (grows from corm)"
+      }
+    },
+    {
+      "name": "Daisy",
+      "color": ["White", "Yellow", "Pink"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Worldwide"],
+      "physicalFeatures": {
+        "height": "10-30 cm",
+        "flowerSize": "3-5 cm",
+        "leafShape": "Lance-shaped",
+        "stem": "Hairy"
+      }
+    },
+    {
+      "name": "Dahlia",
+      "color": ["Red", "Pink", "Yellow", "Purple", "White"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Central America", "Mexico"],
+      "physicalFeatures": {
+        "height": "60-180 cm",
+        "flowerSize": "10-20 cm",
+        "leafShape": "Lobed",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Daffodil",
+      "color": ["Yellow", "White", "Orange"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["Europe", "North America"],
+      "physicalFeatures": {
+        "height": "30-45 cm",
+        "flowerSize": "5-10 cm",
+        "leafShape": "Linear",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Delphinium",
+      "color": ["Blue", "Purple", "White"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["North America", "Europe"],
+      "physicalFeatures": {
+        "height": "90-180 cm",
+        "flowerSize": "2-5 cm",
+        "leafShape": "Lobed",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Edelweiss",
+      "color": ["White"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["Alps", "Carpathians"],
+      "physicalFeatures": {
+        "height": "10-30 cm",
+        "flowerSize": "2-4 cm",
+        "leafShape": "Woolly",
+        "stem": "Hairy"
+      }
+    },
+    {
+      "name": "Freesia",
+      "color": ["Yellow", "White", "Pink", "Purple", "Red"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["South Africa"],
+      "physicalFeatures": {
+        "height": "30-45 cm",
+        "flowerSize": "4-6 cm",
+        "leafShape": "Linear",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Gardenia",
+      "color": ["White", "Cream"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Asia", "Africa"],
+      "physicalFeatures": {
+        "height": "1-2 meters",
+        "flowerSize": "5-10 cm",
+        "leafShape": "Oval",
+        "stem": "Woody"
+      }
+    },
+    {
+      "name": "Geranium",
+      "color": ["Red", "Pink", "White", "Purple"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["South Africa", "Europe"],
+      "physicalFeatures": {
+        "height": "30-60 cm",
+        "flowerSize": "2-4 cm",
+        "leafShape": "Rounded",
+        "stem": "Hairy"
+      }
+    },
+    {
+      "name": "Gerbera Daisy",
+      "color": ["Red", "Pink", "Yellow", "White", "Orange"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["South Africa"],
+      "physicalFeatures": {
+        "height": "30-60 cm",
+        "flowerSize": "7-12 cm",
+        "leafShape": "Lance-shaped",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Gladiolus",
+      "color": ["Red", "Pink", "Yellow", "White", "Purple"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Africa", "Europe"],
+      "physicalFeatures": {
+        "height": "60-180 cm",
+        "flowerSize": "5-10 cm",
+        "leafShape": "Sword-shaped",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Gloxinia",
+      "color": ["Red", "Pink", "Purple", "White"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["South America"],
+      "physicalFeatures": {
+        "height": "15-30 cm",
+        "flowerSize": "5-8 cm",
+        "leafShape": "Rounded",
+        "stem": "Fleshy"
+      }
+    },
+    {
+      "name": "Hibiscus",
+      "color": ["Red", "Pink", "White", "Yellow", "Orange"],
+      "pollinators": ["Bees", "Hummingbirds"],
+      "geographicRegions": ["Tropical regions worldwide"],
+      "physicalFeatures": {
+        "height": "1-3 meters",
+        "flowerSize": "10-15 cm",
+        "leafShape": "Oval",
+        "stem": "Woody"
+      }
+    },
+    {
+      "name": "Hollyhock",
+      "color": ["Red", "Pink", "White", "Purple", "Yellow"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Europe", "Asia"],
+      "physicalFeatures": {
+        "height": "90-180 cm",
+        "flowerSize": "5-10 cm",
+        "leafShape": "Heart-shaped",
+        "stem": "Hairy"
+      }
+    },
+    {
+      "name": "Hyacinth",
+      "color": ["Purple", "Pink", "Blue", "White"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["Europe", "Asia"],
+      "physicalFeatures": {
+        "height": "15-30 cm",
+        "flowerSize": "2-5 cm",
+        "leafShape": "Linear",
+        "stem": "No stem (grows from bulb)"
+      }
+    },
+    {
+      "name": "Hydrangea",
+      "color": ["Blue", "Pink", "White", "Purple"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Asia", "North America"],
+      "physicalFeatures": {
+        "height": "1-2 meters",
+        "flowerSize": "10-20 cm",
+        "leafShape": "Oval",
+        "stem": "Woody"
+      }
+    },
+    {
+      "name": "Iris",
+      "color": ["Purple", "Blue", "White", "Yellow"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Europe", "Asia", "North America"],
+      "physicalFeatures": {
+        "height": "30-90 cm",
+        "flowerSize": "5-10 cm",
+        "leafShape": "Sword-shaped",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Jasmine",
+      "color": ["White", "Yellow"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Asia", "Europe", "North America"],
+      "physicalFeatures": {
+        "height": "1-4 meters",
+        "flowerSize": "1-2 cm",
+        "leafShape": "Oval",
+        "stem": "Woody"
+      }
+    },
+    {
+      "name": "Lady's Slipper",
+      "color": ["Pink", "White", "Yellow"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["North America", "Europe"],
+      "physicalFeatures": {
+        "height": "20-30 cm",
+        "flowerSize": "4-6 cm",
+        "leafShape": "Oval",
+        "stem": "Hairy"
+      }
+    },
+    {
+      "name": "Lavender",
+      "color": ["Purple", "Blue"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Mediterranean", "North America"],
+      "physicalFeatures": {
+        "height": "30-60 cm",
+        "flowerSize": "1-2 cm",
+        "leafShape": "Linear",
+        "stem": "Woody"
+      }
+    },
+    {
+      "name": "Lilac",
+      "color": ["Purple", "White"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Europe", "North America"],
+      "physicalFeatures": {
+        "height": "2-5 meters",
+        "flowerSize": "5-10 cm",
+        "leafShape": "Heart-shaped",
+        "stem": "Woody"
+      }
+    },
+    {
+      "name": "Lily",
+      "color": ["White", "Yellow", "Pink", "Red", "Orange"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Europe", "Asia", "North America"],
+      "physicalFeatures": {
+        "height": "60-120 cm",
+        "flowerSize": "5-15 cm",
+        "leafShape": "Linear",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Lotus",
+      "color": ["White", "Pink", "Red"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["Asia"],
+      "physicalFeatures": {
+        "height": "30-60 cm",
+        "flowerSize": "10-20 cm",
+        "leafShape": "Round",
+        "stem": "No stem (grows from rhizome)"
+      }
+    },
+    {
+      "name": "Marigold",
+      "color": ["Orange", "Yellow", "Red"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["North America", "South America", "Europe"],
+      "physicalFeatures": {
+        "height": "30-60 cm",
+        "flowerSize": "3-5 cm",
+        "leafShape": "Lobed",
+        "stem": "Hairy"
+      }
+    },
+    {
+      "name": "Orchid",
+      "color": ["White", "Purple", "Pink", "Yellow"],
+      "pollinators": ["Bees", "Butterflies", "Hummingbirds"],
+      "geographicRegions": ["Tropical and subtropical regions worldwide"],
+      "physicalFeatures": {
+        "height": "15-90 cm",
+        "flowerSize": "2-5 cm",
+        "leafShape": "Oval",
+        "stem": "Fleshy"
+      }
+    },
+    {
+      "name": "Pansy",
+      "color": ["Purple", "Yellow", "White", "Red"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["Europe", "North America"],
+      "physicalFeatures": {
+        "height": "15-30 cm",
+        "flowerSize": "5-10 cm",
+        "leafShape": "Heart-shaped",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Peony",
+      "color": ["Red", "Pink", "White"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Europe", "Asia", "North America"],
+      "physicalFeatures": {
+        "height": "60-90 cm",
+        "flowerSize": "10-20 cm",
+        "leafShape": "Lobed",
+        "stem": "Hairy"
+      }
+    },
+    {
+      "name": "Petunia",
+      "color": ["Purple", "Pink", "White", "Red"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["South America"],
+      "physicalFeatures": {
+        "height": "15-30 cm",
+        "flowerSize": "5-8 cm",
+        "leafShape": "Oval",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Rose",
+      "color": ["Red", "Pink", "White", "Yellow", "Orange"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["Worldwide"],
+      "physicalFeatures": {
+        "height": "30 cm - 3 meters",
+        "flowerSize": "5-15 cm",
+        "leafShape": "Oval",
+        "stem": "Thorny"
+      }
+    },
+    {
+      "name": "Sunflower",
+      "color": ["Yellow", "Orange"],
+      "pollinators": ["Bees", "Birds"],
+      "geographicRegions": ["North America", "South America"],
+      "physicalFeatures": {
+        "height": "1-3 meters",
+        "flowerSize": "15-30 cm",
+        "leafShape": "Heart-shaped",
+        "stem": "Hairy"
+      }
+    },
+    {
+      "name": "Tulip",
+      "color": ["Red", "Yellow", "Pink", "White"],
+      "pollinators": ["Bees"],
+      "geographicRegions": ["Europe", "Asia", "North America"],
+      "physicalFeatures": {
+        "height": "10-60 cm",
+        "flowerSize": "5-10 cm",
+        "leafShape": "Linear",
+        "stem": "Smooth"
+      }
+    },
+    {
+      "name": "Zinnia",
+      "color": ["Red", "Pink", "Orange", "Yellow", "White"],
+      "pollinators": ["Bees", "Butterflies"],
+      "geographicRegions": ["North America", "South America"],
+      "physicalFeatures": {
+        "height": "30-90 cm",
+        "flowerSize": "5-10 cm",
+        "leafShape": "Lance-shaped",
+        "stem": "Smooth"
+      }
+    }
+  ]
+}
+
