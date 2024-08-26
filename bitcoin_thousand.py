@@ -8,20 +8,20 @@ params = {"vs_currency": "usd", "days": "3650", "interval": "daily"}  # Fetch da
 response = requests.get(url, params=params)
 data = response.json()
 
-# Extract timestamps and prices
+#timestamp and price extract
 timestamps = [ts[0] // 1000 for ts in data["prices"]]
 prices = [price[1] for price in data["prices"]]
 
-# Create a DataFrame
+#df creation
 df = pd.DataFrame({"Timestamp": timestamps, "Price": prices})
 
-# Calculate daily percentage change
+# calc daily % change
 df["PriceChange"] = df["Price"].pct_change()
 
-# Identify prices close to perfect thousandth places
+# id prices close to perfect thousandth places
 df["NearThousandth"] = ((df["Price"] % 1000) <= 100) | ((df["Price"] % 1000) >= 900)
 
-# Calculate average volatility
+#calc avg volatility
 avg_volatility_near_thousandth = df[df["NearThousandth"]]["PriceChange"].abs().mean()
 avg_volatility_not_near_thousandth = df[~df["NearThousandth"]]["PriceChange"].abs().mean()
 
