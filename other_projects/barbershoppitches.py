@@ -7,17 +7,17 @@ import librosa
 import librosa.display
 import mplcursors
 
-def download_audio(youtube_url, output_path='/home/timothy/Documents/python_programs/mp3/output.mp3'):
+def download_audio(youtube_url, output_path='path.mp3'):
     #download audio
     subprocess.run(['yt-dlp', '--extract-audio', '--audio-format', 'mp3', '-o', output_path, youtube_url])
 
-def convert_audio_to_wav(input_path='/home/timothy/Documents/python_programs/mp3/output.mp3', output_path='/home/timothy/Documents/python_programs/mp3/output.wav'):
+def convert_audio_to_wav(input_path='path.mp3', output_path='path.wav'):
     # check if output directory exists
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     # mp3 to wav using ffmpeg
     subprocess.run(['ffmpeg', '-i', input_path, output_path])
 
-def analyze_audio(file_path='/home/timothy/Documents/python_programs/mp3/output.wav'):
+def analyze_audio(file_path='path.wav'):
     y, sr = librosa.load(file_path)
     pitches, magnitudes = librosa.core.piptrack(y=y, sr=sr)
     notes = []
