@@ -1,3 +1,7 @@
+'''
+In case you run into a case where you need to use a task-scheduler-like process to run keyboards command to run an automated program to avoid buying a premium license.
+'''
+
 import pyautogui
 import os
 
